@@ -1,0 +1,48 @@
+img {
+  width: 100%;
+}
+
+.full-page {
+  height: 200vh;
+  min-height: 1200px;
+  background-color: #e1e1e1;
+}
+
+.ball {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: darkslategray;
+}
+
+header {
+  padding-top: 100px;
+}
+
+.section {
+  height: 100vh;
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.red {
+  background-color: rgb(129, 35, 53);
+  background-image: url('./img/header.png');
+}
+
+.blue {
+  background-color: rgb(35, 35, 113);
+  background-image: url('./img/section2.png');
+}
+
+.green {
+  background-color: rgb(27, 94, 27);
+  background-image: url('./img/section3.png');
+}
+
+.black {
+  background-color: rgb(29, 26, 26);
+  background-image: url('./img/footer.png');
+}
